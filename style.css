@@ -1,0 +1,103 @@
+:root {
+  --cdark: rgba(58, 47, 47, 1);
+  --clight: rgba(233, 231, 231, 1);
+  --cbrown: rgba(184, 116, 32, 1);
+  --cgrey: rgba(158, 151, 144, 1);
+}
+
+
+header .col-1 {
+  color: var(--clight);
+}
+
+body {
+
+  font-family: 'Sanchez', serif;
+
+  background-image: url(https://s3-alpha-sig.figma.com/img/f031/0a39/52994596aac7013af534b9f6f1f27183?Expires=1653264000&Signature=DJulGYBOsI6xAymbokZ8GGG3a70qKpkhgjZZMDG0TXq6WyvIHQIdvlvkUvwui-5YBu33NWvdMUk2SEXfD~hE6QqPQnayUlN4N6czmjt351MmqUweAVq9khIqQXAm0dOb8-x97iscvAnQAGCV7ZVMNs8qvA89nmTybyq0dteEhmsRBJcuvM7yiLeYYzKgugl7I6hZhp8JdCPZKCCrTs-IhjiB3MeEsnS5q5WPdKOAm-q0KZj4yOHhtO8GV6syo5j50~bEzCcRO0kWFfFhZwJffdy5YbOrmPRJ142I8aRzkCq5AJBzY3g1X14342vp~czcgE6HfmiQrlrZcsMdeTCPEQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
+@media (min-width:768px) {
+  body {
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fs3-alpha-sig.figma.com%2Fimg%2Fe5dc%2F96e3%2F7cd9fe12c0c349fff5db9516541272e6%3FExpires%3D1653264000%26Signature%3DAc9WP7yBRV-LAwBGTIQ~af8mHM88Vq47h8lkAaDA7T~Lr5sfbkBcfoN~50TIHOlVttl1HWirLd21BHz711GCRPoJjFa7dl9eyoiqpMwAp0z3kPUbdtLYY0xntitnuTah8MymTWfa7eFob319LgIMOpcq4yPaohpBB9UegcC3hdiUZUBUpIG2yOoXcySMqYGF30Tqq1-oTwc0icsTJUR4ZMczLnE81BELJfFrpMYt4MlxEPRKc7wRXI9eGPpIEiX87t-AvEuvI8iIwh7c4CYZJjFSFp~CinMOWUtB-jcpYrEZu3Wql1DnL21GrLF~kq-S0i2iMkHwp1d6kFVPRkB2nw__%26Key-Pair-Id%3DAPKAINTVSUGEWH5XD5UA);
+  }
+
+}
+
+.banner-img {
+  min-height: 100vh;
+}
+
+.logo-card {
+  background-color: var(--cdark);
+  color: var(--clight);
+  height: 10em;
+  width: 20em;
+}
+
+.light-bg {
+  background-color: var(--clight);
+}
+
+.light-bg div {
+  padding: .5em;
+}
+
+.light-bg div :not(.dark-bg) {
+  border-radius: 5px;
+  box-shadow: 3px, 3px, 20px, gray;
+}
+
+.light-bg .grey-bg {
+  margin-top: .5em;
+  text-align: left;
+}
+
+.grey-bg {
+  background-color: var(--cgrey);
+}
+
+.row .col-3 {
+  text-align: center;
+  border: 1px grey solid;
+}
+
+@media (min-width:768px) {
+  .row .col-3 {
+    padding: 3em 0;
+  }
+}
+
+.long-boi {
+  object-fit: cover;
+}
+
+.edge {
+  border-radius: 5px;
+}
+
+.shadow {
+  /* TODO broken */
+  /* box-shadow: 3px, 3px, 20px, gray; */
+  box-shadow: 10px 5px 5px red;
+
+}
+
+.wood-img {
+  color: white;
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .wood-img {
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+  }
+}
